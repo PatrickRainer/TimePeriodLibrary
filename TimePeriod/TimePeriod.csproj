@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.6;net35;net40;net45;net46</TargetFrameworks>
     <AssemblyName>Itenso.TimePeriod</AssemblyName>
     <RootNamespace>Itenso.TimePeriod</RootNamespace>
     <Version>2.1.1</Version>
@@ -27,6 +26,7 @@
     <AssemblyOriginatorKeyFile>TimePeriodLibrary.snk</AssemblyOriginatorKeyFile>
     <AssemblyVersion>2.1.1.0</AssemblyVersion>
     <FileVersion>2.1.1.0</FileVersion>
+    <TargetFrameworks>net472;netstandard2.1;netcoreapp3.1</TargetFrameworks>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
